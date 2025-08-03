@@ -6,7 +6,7 @@
   <meta name="description" content="Filtros para vehículos Danielito - Aire, aceite, combustible y habitáculo al mejor precio.">
   <meta name="keywords" content="filtros, autos, aire, aceite, combustible, habitáculo, repuestos, Danielito">
   <meta name="author" content="Distribuidora Danielito">
-  <title>Filtros para autos | Catálogo DistriDAN</title>  
+  <title>Filtros para autos | Catálogo DistriDAN</title>
   <link rel="stylesheet" href="./css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -14,108 +14,101 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-  <header class="header">
+  <header class="header" role="banner">
     <img class="logo" src="./Img/DANIELITO.png" width="300" alt="Logo de DistriDAN">
   </header>
 
-  <!-- Bootstrap alerta -->
-<div class="alert alert-primary" role="alert">
+  <div class="alert alert-primary" role="alert">
     ¡Envíos a todo el país! Contactanos por Instagram o visitanos en nuestro local.
-</div>
-
-<main>
-  <section class="presentacion">
-    <h1 class="titulo-principal">Bienvenidos a DistriDAN</h1>
-    <p class="historia">
-      Somos una distribuidora comprometida con la calidad y el servicio.<br>
-      Ofrecemos filtros para vehículos de todas las marcas y modelos.<br>
-      Nuestro objetivo es brindarte soluciones rápidas, eficientes y accesibles.
-    </p>
-  </section>
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="../index.html">INICIO</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item"><a class="nav-link" href="./HTMLS/filtrosaceite.html">Filtros de Aceite</a></li>
-        <li class="nav-item"><a class="nav-link" href="./HTMLS/filtrosaire.html">Filtros de Aire</a></li>
-        <li class="nav-item"><a class="nav-link" href="./HTMLS/filtroscombustible.html">Filtros de Combustible</a></li>
-        <li class="nav-item"><a class="nav-link" href="./HTMLS/filtroshabitaculo.html">Filtros de Habitáculo</a></li>
-        <li class="nav-item"><a class="nav-link" href="./HTMLS/combos.html">Combos</a></li>
-      </ul>
-    </div>
   </div>
-</nav>
 
-  <section class="catalogos">
-    <article class="card">
-      <div class="card-img aceite"></div>
-      <div class="card-content">
-        <h2>Filtros de Aceite</h2>
-        <p>Extendé la vida útil del motor con filtros de aceite de alto rendimiento.</p>
-        <a href="./HTMLS/filtrosaceite.html" class="btn btn-outline-primary">Ver Catálogo De Filtros De Aceite</a>
-      </div>
-    </article>
+  <main>
+    <section class="presentacion" aria-labelledby="bienvenida">
+      <h1 class="titulo-principal" id="bienvenida">Bienvenidos a DistriDAN</h1>
+      <p class="historia">
+        Somos una distribuidora comprometida con la calidad y el servicio.<br>
+        Ofrecemos filtros para vehículos de todas las marcas y modelos.<br>
+        Nuestro objetivo es brindarte soluciones rápidas, eficientes y accesibles.
+      </p>
+    </section>
 
-    <article class="card">
-      <div class="card-img aire"></div>
-      <div class="card-content">
-        <h2>Filtros de Aire</h2>
-        <p>Mejorá la combustión del motor con filtros de aire eficientes y duraderos.</p>
-        <a href="./HTMLS/filtrosaire.html" class="btn btn-outline-primary">Ver Catálogo De Filtros De Aire</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation" aria-label="Navegación principal">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">INICIO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir navegación">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link" href="./HTMLS/filtrosaceite.html">Filtros de Aceite</a></li>
+            <li class="nav-item"><a class="nav-link" href="./HTMLS/filtrosaire.html">Filtros de Aire</a></li>
+            <li class="nav-item"><a class="nav-link" href="./HTMLS/filtroscombustible.html">Filtros de Combustible</a></li>
+            <li class="nav-item"><a class="nav-link" href="./HTMLS/filtroshabitaculo.html">Filtros de Habitáculo</a></li>
+            <li class="nav-item"><a class="nav-link" href="./HTMLS/combos.html">Combos</a></li>
+          </ul>
+        </div>
       </div>
-    </article>
+    </nav>
 
-    <article class="card">
-      <div class="card-img combustible"></div>
-      <div class="card-content">
-        <h2>Filtros de Combustible</h2>
-        <p>Mantené limpio el sistema de inyección con nuestros filtros de combustible.</p>
-        <a href="./HTMLS/filtroscombustible.html" class="btn btn-outline-primary">Ver Catálogo De Filtros De Combustible</a>
-      </div>
-    </article>
+    <section class="catalogos" aria-label="Catálogo de productos principales">
+      <article class="card">
+        <div class="card-img aceite" role="img" aria-label="Filtros de Aceite"></div>
+        <div class="card-content">
+          <h2>Filtros de Aceite</h2>
+          <p>Extendé la vida útil del motor con filtros de aceite de alto rendimiento.</p>
+          <a href="./HTMLS/filtrosaceite.html" class="btn btn-outline-primary">Ver Catálogo De Filtros De Aceite</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-img aire" role="img" aria-label="Filtros de Aire"></div>
+        <div class="card-content">
+          <h2>Filtros de Aire</h2>
+          <p>Mejorá la combustión del motor con filtros de aire eficientes y duraderos.</p>
+          <a href="./HTMLS/filtrosaire.html" class="btn btn-outline-primary">Ver Catálogo De Filtros De Aire</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-img combustible" role="img" aria-label="Filtros de Combustible"></div>
+        <div class="card-content">
+          <h2>Filtros de Combustible</h2>
+          <p>Mantené limpio el sistema de inyección con nuestros filtros de combustible.</p>
+          <a href="./HTMLS/filtroscombustible.html" class="btn btn-outline-primary">Ver Catálogo De Filtros De Combustible</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-img habitaculo" role="img" aria-label="Filtros de Habitáculo"></div>
+        <div class="card-content">
+          <h2>Filtros de Habitáculo</h2>
+          <p>Respirá aire puro dentro del vehículo con nuestros filtros de cabina.</p>
+          <a href="./HTMLS/filtroshabitaculo.html" class="btn btn-outline-primary">Ver Catálogo De Filtros De Habitáculo</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-img combos" role="img" aria-label="Combos de filtros"></div>
+        <div class="card-content">
+          <h2>Combos De Filtros</h2>
+          <p>Contamos con combos excelentes para tu vehículo</p>
+          <a href="./HTMLS/combos.html" class="btn btn-outline-primary">Ver Catálogo De Combos</a>
+        </div>
+      </article>
+    </section>
 
-    <article class="card">
-      <div class="card-img habitaculo"></div>
-      <div class="card-content">
-        <h2>Filtros de Habitáculo</h2>
-        <p>Respirá aire puro dentro del vehículo con nuestros filtros de cabina.</p>
-        <a href="./HTMLS/filtroshabitaculo.html" class="btn btn-outline-primary">Ver Catálogo De Filtros De Habitaculo</a>
-      </div>
-    </article>
-    
-    <article class="card">
-      <div class="card-img combos"></div>
-      <div class="card-content">
-        <h2>Combos De Filtros</h2>
-        <p>Contamos con combos excelentes para tu vehículo</p>
-        <a href="./HTMLS/combos.html" class="btn btn-outline-primary">Ver Catálogo De Combos</a>
-      </div>
-    </article>
-  </section>
-
-    <!-- Formulario de contacto -->
-  <section class="contacto">
-    <h3>¿Querés que te contactemos?</h3>
-    <p>Dejanos tu nombre y tu número o Email, y te escribimos lo antes posible.</p>
+    <section class="contacto" aria-labelledby="contacto-title">
+      <h3 id="contacto-title">¿Querés que te contactemos?</h3>
+      <p>Dejanos tu nombre y tu teléfono o email, y te escribimos lo antes posible.</p>
       <form class="formulario" action="https://formsubmit.co/Ventasdistridan@gmail.com" method="POST">
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required autocomplete="name">
 
-      <label for="contacto">Teléfono o Email:</label>
-      <input type="text" id="contacto" name="contacto" placeholder="Tu teléfono o email" required>
+        <label for="contacto">Teléfono o Email:</label>
+        <input type="text" id="contacto" name="contacto" placeholder="Tu teléfono o email" required autocomplete="tel">
 
-      <button type="submit" class="btn enviar">Enviar</button>
-    </form>
-  </section>
+        <button type="submit" class="btn enviar">Enviar</button>
+      </form>
+    </section>
   </main>
 
-  <!-- Footer -->
-  <footer class="footer">
+  <footer class="footer" role="contentinfo">
     <div class="footer-top">
       <p class="footer-brand">DistriDAN</p>
       <a href="https://www.instagram.com/distribuidoradistridan/" target="_blank" class="social-icon" aria-label="Instagram">
@@ -127,6 +120,5 @@
       <p>El contenido de este sitio web está protegido por derechos de autor. Prohibida su reproducción sin autorización.</p>
     </div>
   </footer>
-
 </body>
 </html>
