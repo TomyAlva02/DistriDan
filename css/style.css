@@ -79,22 +79,6 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-.aire {
-  background-image: url("../Img/filtro-aire.jpg");
-}
-
-.aceite {
-  background-image: url("../Img/filtro-aceite.jpg");
-}
-
-.combustible {
-  background-image: url("../Img/filtro-combustible.jpg");
-}
-
-.habitaculo {
-  background-image: url("../Img/filtro-habitaculo.jpg");
-}
-
 .card-content {
   padding: 1.5rem;
   text-align: center;
@@ -232,7 +216,7 @@ input {
 }
 
 .card-img.habitaculo {
-  background-image: url("../Img/habitaculofiltro.avif");
+  background-image: url("../Img/habitaculofiltro.jpg");
 }
 
 .card-img.combos {
